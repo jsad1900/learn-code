@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #F6F7FB;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box {
+  margin: auto;
+}
+
+.box .progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .progress .item {
+  height: 5px;
+  width: 100px;
+  background: #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.box .progress .item span {
+  color: #afafaf;
+  font-size: 18px;
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  border: 3px solid #E0E0E0;
+}
+
+.box .progress .item:nth-child(1) {
+  width: 30px;
+}
+
+.box .progress .active {
+  background: #3498DB;
+}
+
+.box .progress .active span {
+  border: 3px solid #3498DB;
+}
+
+.box .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box .btn button {
+  color: #fff;
+  border: 0;
+  outline: 0;
+  margin: 0 10px;
+  background: #a1a1a1;
+  font-size: 16px;
+  padding: 6px 20px;
+  cursor: not-allowed;
+  border-radius: 5px;
+}
+
+.box .btn .active-btn {
+  background: #3498DB;
+  display: inline-block;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
