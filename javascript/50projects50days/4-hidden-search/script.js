@@ -1,0 +1,1 @@
+document.querySelector(".fa-search").addEventListener("click",()=> document.querySelector("input").classList.toggle("toggle-input"))
